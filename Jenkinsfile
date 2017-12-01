@@ -8,7 +8,7 @@ pipeline {
             bat 'mvn clean deploy'
           }
         }
-        stage('') {
+        stage('parallel') {
           steps {
             echo 'parallel'
           }
