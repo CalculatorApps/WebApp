@@ -9,7 +9,8 @@
 
 	<scm>
 		<url>https://github.com/DIGITALAPPLICATION/WebApp.git</url>
-		<connection>scm:git:https://github.com/DIGITALAPPLICATION/WebApp.git</connection>
+		<connectionUrl>scm:git:https://github.com/DIGITALAPPLICATION/WebApp.git</connectionUrl>
+		<developerConnection>scm:git:https://github.com/DIGITALAPPLICATION/WebApp.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
