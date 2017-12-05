@@ -4,6 +4,6 @@
 Login Page
 UserName Text Box
 Password Text Box
-  Login Button
+  Login Button SigUp Button
 </body>
 </html>
