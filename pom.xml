@@ -46,7 +46,7 @@
 		<repository>
 			<id>nexus</id>
 			<name>libs-release</name>
-			<url>http://localhost:8081/nexus/content/artifactory/libs-release</url>
+			<url>http://18.218.88.137:8081/nexus/content/artifactory/libs-release</url>
 		</repository>
 	</repositories>
 	<distributionManagement>
