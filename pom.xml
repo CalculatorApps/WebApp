@@ -48,18 +48,18 @@
 			<name>libs-release</name>
 			<url>http://18.218.88.137:8081/nexus/content/artifactory/libs-release</url>
 		</repository>
-	</repositories>
+	</repositories>-->
 	<distributionManagement>
 		<repository>
 			<id>deployment</id>
 			<name>Nexus Release Repository</name>
-			<url>http://18.218.88.137:8081/nexus/content/repositories/releases/</url>
+			<url>http://18.219.125.197:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>deployment</id>
 			<name>Nexus Snapshots Repository</name>
-			<url>http://18.218.88.137:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://18.219.125.197:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
-	</distributionManagement>-->
+	</distributionManagement>
 
 </project>
