@@ -3,7 +3,7 @@
 	<groupId>com.devops.webapp</groupId>
 	<artifactId>WebApp</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0-2</version>
+	<version>1.0.0-3</version>
 	<name>WebApp Maven Webapp</name>
 
 	<scm>
@@ -53,12 +53,12 @@
 		<repository>
 			<id>deployment</id>
 			<name>Nexus Release Repository</name>
-			<url>http://13.59.32.120:8081/nexus/content/repositories/releases/</url>
+			<url>http://52.15.41.12:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>deployment</id>
 			<name>Nexus Snapshots Repository</name>
-			<url>http://13.59.32.120:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://52.15.41.12:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
