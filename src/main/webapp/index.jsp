@@ -1,6 +1,7 @@
 <html>
 <body>
 <h2>Hello, DevOps World!!!</h2>
+  <h3>Version: 1.0.0-2 </h3>
   <table width="59%" border="1">
     <tr><td>Login Page</td></tr>
     <tr><td>UserName Text Box</td></tr>
