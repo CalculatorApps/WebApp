@@ -6,4 +6,4 @@ ADD index.html /var/www/html/
 
 CMD apachectl -D FOREGROUND
 
-	#RUN rm -rf var/www/html/*
+#RUN rm -rf var/www/html/*
