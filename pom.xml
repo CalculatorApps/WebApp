@@ -4,7 +4,7 @@
 	<artifactId>WebApp</artifactId>
 	<packaging>war</packaging>
 	<version>${releaseVersion}</version>
-	<name>WebApp Maven Webapp</name>
+	<name>${project.artifactId}-${project.version}</name>
 
 	<scm>
 		<url>https://github.com/DIGITALAPPLICATION/WebApp.git</url>
