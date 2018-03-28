@@ -53,12 +53,12 @@
 		<repository>
 			<id>deployment</id>
 			<name>Nexus Release Repository</name>
-			<url>http://18.219.252.49:8081/nexus/content/repositories/releases/</url>
+			<url>http://18.222.105.244:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>deployment</id>
 			<name>Nexus Snapshots Repository</name>
-			<url>http://18.219.252.49:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://18.222.105.244:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
