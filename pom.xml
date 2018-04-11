@@ -61,5 +61,18 @@
 			<url>http://${nexusServer}:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
-
+	<profile>
+		<id>sonar</id>
+		<activation>
+			<activeByDefault>true</activeByDefault>
+		</activation>
+		<properties>
+			<sonar.jdbc.url>jdbc:postgresql://54.242.34.170/sonar</sonar.jdbc.url>
+			<sonar.jdbc.driver>org.postgresql.Driver</sonar.jdbc.driver>
+			<sonar.jdbc.username>sonar</sonar.jdbc.username>
+			<sonar.jdbc.password>StrongPassword</sonar.jdbc.password>
+			<!-- SERVER ON A REMOTE HOST -->
+			<sonar.host.url>http://54.242.34.170:9000</sonar.host.url>
+		</properties>
+	</profile>
 </project>
