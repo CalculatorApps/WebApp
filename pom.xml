@@ -7,7 +7,8 @@
 	<name>${project.artifactId}-${project.version}</name>
 
 	<properties>
-		<project.scm.id>git</project.scm.id>
+		<project.scm.id>github</project.scm.id>
+		<github.global.server>github</github.global.server>
 	</properties>
 	<scm>
 		<url>https://github.com/DIGITALAPPLICATION/WebApp.git</url>
