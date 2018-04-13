@@ -6,6 +6,9 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<name>${project.artifactId}-${project.version}</name>
 
+	<properties>
+		<project.scm.id>git</project.scm.id>
+	</properties>
 	<scm>
 		<url>https://github.com/DIGITALAPPLICATION/WebApp.git</url>
 		<connection>scm:git:https://github.com/DIGITALAPPLICATION/WebApp.git</connection>
