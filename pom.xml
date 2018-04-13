@@ -65,7 +65,7 @@
 		<profile>
 			<id>sonar</id>
 			<activation>
-				<activeByDefault>true</activeByDefault>
+				<activeByDefault>false</activeByDefault>
 			</activation>
 			<properties>
 				<sonar.jdbc.url>jdbc:postgresql://34.238.44.17/sonar</sonar.jdbc.url>
