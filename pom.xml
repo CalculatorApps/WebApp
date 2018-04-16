@@ -3,7 +3,7 @@
 	<groupId>com.devops.webapp</groupId>
 	<artifactId>WebApp</artifactId>
 	<packaging>war</packaging>
-	<version>2.0.1-SNAPSHOT</version>
+	<version>3223</version>
 	<name>${project.artifactId}-${project.version}</name>
 
 	<properties>
@@ -14,7 +14,7 @@
 		<url>https://github.com/DIGITALAPPLICATION/WebApp.git</url>
 		<connection>scm:git:https://github.com/DIGITALAPPLICATION/WebApp.git</connection>
 		<developerConnection>scm:git:https://github.com/DIGITALAPPLICATION/WebApp.git</developerConnection>
-		<tag>WebApp-1.0.111-RC-1</tag>
+		<tag>origin/develop-WebApp-3223</tag>
 	</scm>
 	<dependencies>
 		<dependency>
