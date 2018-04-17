@@ -3,7 +3,7 @@
 	<groupId>com.devops.webapp</groupId>
 	<artifactId>WebApp</artifactId>
 	<packaging>war</packaging>
-	<version>1.1.1.37</version>
+	<version>1.1.1.37-SNAPSHOT</version>
 	<name>${project.artifactId}-${project.version}</name>
 
 	<properties>
@@ -14,7 +14,7 @@
 		<url>https://github.com/DIGITALAPPLICATION/WebApp.git</url>
 		<connection>scm:git:https://github.com/DIGITALAPPLICATION/WebApp.git</connection>
 		<developerConnection>scm:git:https://github.com/DIGITALAPPLICATION/WebApp.git</developerConnection>
-		<tag>master-WebApp-1.1.1.37</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
 		<dependency>
