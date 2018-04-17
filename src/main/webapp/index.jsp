@@ -1,8 +1,8 @@
 <html>
 <body>
-<h2>Hello, Ganesh, welcome to DevOps World!!!</h2>
+<h2>Hello, DevOps World!!!</h2>
 <br/>
-<h3>Find the DevOps Tolls list below.</h3>
+<h3>Find the DevOps Tolls list below.  v3.0-SNAPSHOT</h3>
   
   <table width="59%" border="1">
     <tr><td>S.No.</td><td>Type</td><td>Tool Name</td></tr>
