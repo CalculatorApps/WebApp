@@ -11,6 +11,7 @@ pipeline {
         stage('parallel') {
           steps {
             echo 'parallel'
+            echo 'parallel'
           }
         }
       }
