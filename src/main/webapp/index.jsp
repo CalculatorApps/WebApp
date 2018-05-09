@@ -20,5 +20,8 @@
     <tr><td>11</td><td>Monitoring tools</td><td>Grafana, Graphite, NAGIOS etc.</td></tr>
     <tr><td>12</td><td>Containarizartion tools</td><td>Docker, Kubernetes, Vagrant, CoreOS and rkt, Apache Mesos and Mesosphere,Open Container Initiative (OCI), Panamax etc.</td></tr>
   </table>
+  
+  <br/> <br/> <br/> <br/> <br/> <br/>
+  Click <a href="sample.html">here</a> to go to sample.html page.
 </body>
 </html>
