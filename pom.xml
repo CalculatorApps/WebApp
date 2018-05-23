@@ -47,15 +47,56 @@
 					</dependency>
 				</dependencies>
 			</plugin>
+			<plugin>
+				<!-- Add/update this in tomcat-home/conf/tomcat-users.xml file
+					<role rolename="manager-gui"/>
+					<user username="tomcat" password="s3cret" roles="admin,tomcat,manager-gui,manager-script"/>
+					Run the maven goal tomcat7:deploy to deploy your war package to tomcat server.
+				-->
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<url>http://localhost:8888/manager/text</url>
+					<update>true</update>
+					<path>/${project.artifactId}-${project.version}</path>
+					<username>tomcat</username>
+					<password>s3cret</password>
+				</configuration>
+			</plugin>
+			<!--
+			<plugin>
+				1. Add/update this in tomcat-home/conf/tomcat-users.xml file
+					<role rolename="manager-gui"/>
+					<user username="tomcat" password="s3cret" roles="admin,tomcat,manager-gui,manager-script"/>
+					Run the maven goal tomcat7:deploy to deploy your war package to tomcat server.
+				2. Add the server details in settings.xml file
+						<server>
+							<id>TomcatServer</id> -- this id <value> should match with below <server> value
+							<username>tomcat</username>
+							<password>s3cret</password>
+						</server>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<url>http://localhost:8888/manager/text</url>
+					<update>true</update>
+					<path>/${project.artifactId}-${project.version}</path>
+					<server>TomcatServer</server>
+				</configuration>
+			</plugin>
+			-->
 		</plugins>
 	</build>
-	<!--<repositories>
+	<!--
+	<repositories>
 		<repository>
 			<id>nexus</id>
 			<name>libs-release</name>
 			<url>http://18.218.88.137:8081/nexus/content/artifactory/libs-release</url>
 		</repository>
-	</repositories>-->
+	</repositories>
 	<distributionManagement>
 		<repository>
 			<id>deployment</id>
@@ -68,6 +109,7 @@
 			<url>http://${nexusServer}:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
+	-->
 	<profiles>
 		<profile>
 			<id>sonar</id>
