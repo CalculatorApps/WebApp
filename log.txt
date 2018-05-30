@@ -1,4 +1,4 @@
-Build log:
+Build log: new change
 Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T13:28:13+05:30)
 Maven home: D:\DevOps\maven\apache-maven-3.5.2-bin\apache-maven-3.5.2
 Java version: 1.8.0_151, vendor: Oracle Corporation
