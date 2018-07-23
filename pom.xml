@@ -72,7 +72,7 @@
 					Run the maven goal tomcat7:deploy to deploy your war package to tomcat server.
 				2. Add the server details in settings.xml file
 						<server>
-							<id>TomcatServer</id> -- this id <value> should match with below <server> value
+							<id>TomcatServer</id> this id <value> should match with below <server> value
 							<username>tomcat</username>
 							<password>s3cret</password>
 						</server>
