@@ -89,12 +89,12 @@
 			-->
 		</plugins>
 	</build>
-	<!--
+	
 	<repositories>
 		<repository>
 			<id>nexus</id>
 			<name>libs-release</name>
-			<url>http://18.218.88.137:8081/nexus/content/artifactory/libs-release</url>
+			<url>http://18.191.134.246:32768/nexus/content/artifactory/libs-release</url>
 		</repository>
 	</repositories>
 	<distributionManagement>
@@ -109,7 +109,6 @@
 			<url>http://18.191.134.246:32768/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
-	-->
 	<profiles>
 		<profile>
 			<id>sonar</id>
