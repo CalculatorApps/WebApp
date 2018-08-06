@@ -1,19 +1,6 @@
-pipeline {
-  agent any
-  stages {
-    stage('build') {
-      parallel {
-        stage('build') {
-          steps {
-            bat 'mvn clean deploy'
-          }
-        }
-        stage('parallel') {
-          steps {
-            echo 'parallel'
-          }
-        }
+node {
+   stage('Checkout') {
+      //Checkout the code from a GitHub repository
+      git credentialsId: 'venkat0007', url: 'https://github.com/DIGITALAPPLICATION/WebApp.git'
       }
-    }
-  }
 }
