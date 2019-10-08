@@ -1,5 +1,7 @@
-node  {
-   
+pipeline {
+   node  {
+      stages
+      {
           stage('Checkout') {
                //Checkout the code from a GitHub repository
                git credentialsId: 'venkat0007', url: 'https://github.com/DIGITALAPPLICATION/WebApp.git'
@@ -17,4 +19,6 @@ node  {
          sh '"/usr/apache-maven-3.5.4/bin/mvn" -V install '
          }
 
+}
+   }
 }
