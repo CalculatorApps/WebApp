@@ -16,6 +16,11 @@
          {
          sh '"/usr/apache-maven-3.5.4/bin/mvn" -V install '
          }
+   post { 
+        always { 
+            echo 'I will always say Hello again!'
+        }
+    }
 
 }
 
