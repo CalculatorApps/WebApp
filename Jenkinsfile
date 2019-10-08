@@ -5,6 +5,6 @@ node {
       }
    stage ('build')
    {
-     sh /usr/apache-maven-3.5.4/mvn compile
+     sh '"/usr/apache-maven-3.5.4/bin/mvn" -V clean verify'
    }
 }
