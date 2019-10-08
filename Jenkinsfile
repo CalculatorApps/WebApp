@@ -1,4 +1,4 @@
-node any {
+node  {
    
           stage('Checkout') {
                //Checkout the code from a GitHub repository
