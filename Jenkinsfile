@@ -18,7 +18,7 @@
          }
    post { 
         always { 
-            echo 'I will always say Hello again!'
+            sh echo 'I will always say Hello again!'
         }
     }
 
