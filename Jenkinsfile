@@ -1,8 +1,6 @@
  agent none  {
   
-  tools {
-        maven 'apache-maven-3.0.1' 
-    }
+ 
     
           stage('Checkout') {
                //Checkout the code from a GitHub repository
