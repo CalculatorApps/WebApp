@@ -1,5 +1,3 @@
-pipeline
-{
 node any {
    stages{
           stage('Checkout') {
