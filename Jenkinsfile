@@ -1,4 +1,4 @@
- agent any  {
+ node any  {
     
           stage('Checkout') {
                //Checkout the code from a GitHub repository
