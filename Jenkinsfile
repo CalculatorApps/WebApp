@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('build') {
           steps {
-            bat 'mvn clean deploy'
+            sh 'mvn clean deploy'
           }
         }
         stage('parallel') {
