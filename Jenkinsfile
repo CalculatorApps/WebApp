@@ -7,7 +7,9 @@
                git credentialsId: 'venkat0007', url: 'https://github.com/DIGITALAPPLICATION/WebApp.git'
                            }
           stage('Example') {
+              sh 'mvn clean'
               sh 'mvn package'
+           
             
         }
     }
