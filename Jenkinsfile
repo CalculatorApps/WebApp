@@ -10,6 +10,7 @@
               sh 'mvn clean'
               sh 'mvn package'
              sh 'mvn install'
+	     sh 'echo venkat'
            
             
         }
