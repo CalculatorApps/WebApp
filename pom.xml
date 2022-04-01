@@ -48,6 +48,21 @@
 				</dependencies>
 			</plugin>
 			<plugin>
+                          <groupId>org.apache.maven.plugins</groupId>
+                          <artifactId>maven-war-plugin</artifactId>
+                          <version>3.3.1</version>
+                      </plugin>
+			<plugin>
+                           <groupId>org.apache.maven.plugins</groupId>
+                           <artifactId>maven-compiler-plugin</artifactId>
+                           <version>3.0</version>
+                        <configuration>
+                      <source>1.6</source>
+                     <target>1.6</target>
+            </configuration>
+        </plugin>
+    </plugins>
+			<plugin>
 				<!-- Add/update this in tomcat-home/conf/tomcat-users.xml file
 					<role rolename="manager-gui"/>
 					<user username="tomcat" password="s3cret" roles="admin,tomcat,manager-gui,manager-script"/>
